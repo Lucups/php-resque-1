@@ -1,5 +1,5 @@
 {
-    "name": "Lucups/presque",
+    "name": "lucups/presque",
     "type": "library",
     "description": "Redis backed library for creating background jobs and processing them later.",
     "keywords": ["job", "background", "redis", "resque", "php", "php-resque", "queue", "worker"],
