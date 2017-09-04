@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [2.1.1] - 2017-08-31
+- Fix "undefined index" notice (Issue [#59](https://github.com/mjphaynes/php-resque/issues/59))
+
+## [2.1.0] - 2017-08-31
+- Add JOB_DONE event (PR [#58](https://github.com/mjphaynes/php-resque/pull/58))
+- Allow remote shutdown of workers (PR [#50](https://github.com/mjphaynes/php-resque/pull/50))
+- Improve documentation
+
 ## [2.0.0] - 2017-03-01
 - Update required Symfony components to 2.7+ or 3.x
 - Update required Predis version to 1.1.x
@@ -52,7 +60,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## 1.0.0 - 2013-10-09
 - First public release of php-resque
 
-[Unreleased]: https://github.com/mjphaynes/php-resque/compare/2.0.0...HEAD
+[Unreleased]: https://github.com/mjphaynes/php-resque/compare/2.1.1...HEAD
+[2.1.1]: https://github.com/mjphaynes/php-resque/compare/2.1.0...2.1.1
+[2.1.0]: https://github.com/mjphaynes/php-resque/compare/2.0.0...2.1.0
 [2.0.0]: https://github.com/mjphaynes/php-resque/compare/1.3.0...2.0.0
 [1.3.0]: https://github.com/mjphaynes/php-resque/compare/1.2.4...1.3.0
 [1.2.4]: https://github.com/mjphaynes/php-resque/compare/1.2.3...1.2.4
